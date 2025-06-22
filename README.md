@@ -1,4 +1,4 @@
-# @pcon/pubsub
+# @pcon/sf-cli-pubsub
 
 [![NPM](https://img.shields.io/npm/v/@pcon/sf-cli-pubsub.svg?label=sf-cli-pubsub)](https://www.npmjs.com/package/@pcon/sf-cli-pubsub) [![Downloads/week](https://img.shields.io/npm/dw/@pcon/sf-cli-pubsub.svg)](https://npmjs.org/package/@pcon/sf-cli-pubsub)
 
