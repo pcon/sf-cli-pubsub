@@ -110,8 +110,7 @@ sf plugins
 ## Commands
 
 <!-- commands -->
-
-- [`sf pubsub subscribe`](#sf-pubsub-subscribe)
+* [`sf pubsub subscribe`](#sf-pubsub-subscribe)
 
 ## `sf pubsub subscribe`
 
@@ -147,5 +146,4 @@ FLAG DESCRIPTIONS
 
     More information about a flag. Don't repeat the summary.
 ```
-
 <!-- commandsstop -->
