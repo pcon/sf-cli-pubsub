@@ -1,6 +1,6 @@
 # @pcon/pubsub
 
-[![NPM](https://img.shields.io/npm/v/@pcon/pubsub.svg?label=sf-cli-pubsub)](https://www.npmjs.com/package/@pcon/sf-cli-pubsub) [![Downloads/week](https://img.shields.io/npm/dw/@pcon/sf-cli-pubsub.svg)](https://npmjs.org/package/@pcon/sf-cli-pubsub)
+[![NPM](https://img.shields.io/npm/v/@pcon/sf-cli-pubsub.svg?label=sf-cli-pubsub)](https://www.npmjs.com/package/@pcon/sf-cli-pubsub) [![Downloads/week](https://img.shields.io/npm/dw/@pcon/sf-cli-pubsub.svg)](https://npmjs.org/package/@pcon/sf-cli-pubsub)
 
 ## Setup
 
@@ -31,7 +31,8 @@ Please report any issues at https://github.com/pcon/sf-cli-pubsub/issues
 ## Commands
 
 <!-- commands -->
-* [`sf pubsub subscribe`](#sf-pubsub-subscribe)
+
+- [`sf pubsub subscribe`](#sf-pubsub-subscribe)
 
 ## `sf pubsub subscribe`
 
@@ -63,4 +64,5 @@ EXAMPLES
 ```
 
 _See code: [src/commands/pubsub/subscribe.ts](https://github.com/pcon/sf-cli-pubsub/blob/1.2.1/src/commands/pubsub/subscribe.ts)_
+
 <!-- commandsstop -->
