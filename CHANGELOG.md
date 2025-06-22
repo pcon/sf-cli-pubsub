@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/pcon/sf-cli-pubsub/compare/1.2.0...1.2.1) (2025-06-22)
+
+
+### Bug Fixes
+
+* updating documentation, README and messages ([fdc4dd8](https://github.com/pcon/sf-cli-pubsub/commit/fdc4dd8bcbf673ff5f19a32639b4e5c73809c51e))
+
+
+
 # [1.2.0](https://github.com/pcon/sf-cli-pubsub/compare/1.1.1...1.2.0) (2025-06-22)
 
 

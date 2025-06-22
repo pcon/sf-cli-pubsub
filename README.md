@@ -31,21 +31,19 @@ Please report any issues at https://github.com/pcon/sf-cli-pubsub/issues
 ## Commands
 
 <!-- commands -->
-
-- [`sf pubsub subscribe`](#sf-pubsub-subscribe)
+* [`sf pubsub subscribe`](#sf-pubsub-subscribe)
 
 ## `sf pubsub subscribe`
 
-Summary of a command.
+Subscribes to one or more topics.
 
 ```
 USAGE
-  $ sf pubsub subscribe -o <value> --topic <value>... [--json] [--flags-dir <value>] [-n <value>] [-c <value>]
-    [--api-version <value>]
+  $ sf pubsub subscribe -o <value> --topic <value>... [--json] [--flags-dir <value>] [-c <value>] [--api-version
+    <value>]
 
 FLAGS
   -c, --count=<value>        [default: 100] The number of messages to watch for.
-  -n, --name=<value>         Description of a flag.
   -o, --target-org=<value>   (required) Username or alias of the target org. Not required if the `target-org`
                              configuration variable is already set.
       --api-version=<value>  Override the api version used for api requests made by this command
@@ -56,17 +54,13 @@ GLOBAL FLAGS
   --json               Format output as json.
 
 DESCRIPTION
-  Summary of a command.
+  Subscribes to one or more topics.
 
-  More information about a command. Don't repeat the summary.
+  Connects to a pub / sub endpoint and logs the message to the console.
 
 EXAMPLES
-  $ sf pubsub subscribe
-
-FLAG DESCRIPTIONS
-  -n, --name=<value>  Description of a flag.
-
-    More information about a flag. Don't repeat the summary.
+  $ sf pubsub subscribe --target-org myTargetOrg --topic "/data/CaseChangeEvent" --topic "/event/My_Event**e" --topic "/data/My_Object**ChangeEvent"
 ```
 
+_See code: [src/commands/pubsub/subscribe.ts](https://github.com/pcon/sf-cli-pubsub/blob/1.2.1/src/commands/pubsub/subscribe.ts)_
 <!-- commandsstop -->
