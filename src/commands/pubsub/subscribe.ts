@@ -30,12 +30,6 @@ export default class PubsubSubscribe extends SfCommand<undefined> {
   public static readonly examples = messages.getMessages('examples');
 
   public static readonly flags = {
-    name: Flags.string({
-      summary: messages.getMessage('flags.name.summary'),
-      description: messages.getMessage('flags.name.description'),
-      char: 'n',
-      required: false,
-    }),
     'target-org': Flags.requiredOrg(),
     count: Flags.integer({
       summary: messages.getMessage('flags.count.summary'),

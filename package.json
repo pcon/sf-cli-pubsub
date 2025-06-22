@@ -47,7 +47,12 @@
     ],
     "topics": {
       "pubsub": {
-        "description": "description for pubsub"
+        "description": "A toolchain to help with pubsub related tasks",
+        "subtopics": {
+          "subscribe": {
+            "description": "Subscribe to topics"
+          }
+        }
       }
     },
     "flexibleTaxonomy": true
@@ -184,5 +189,7 @@
   },
   "exports": "./lib/index.js",
   "type": "module",
-  "author": "Patrick Connelly"
+  "author": "Patrick Connelly",
+  "bugs": "https://github.com/pcon/sf-cli-pubsub/issues",
+  "repository": "github:pcon/sf-cli-pubsub"
 }
