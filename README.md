@@ -111,35 +111,41 @@ sf plugins
 
 <!-- commands -->
 
-- [`sf hello world`](#sf-hello-world)
+- [`sf pubsub subscribe`](#sf-pubsub-subscribe)
 
-## `sf hello world`
+## `sf pubsub subscribe`
 
-Say hello either to the world or someone you know.
+Summary of a command.
 
 ```
 USAGE
-  $ sf hello world [--json] [-n <value>]
+  $ sf pubsub subscribe -o <value> --topic <value>... [--json] [--flags-dir <value>] [-n <value>] [-c <value>]
+    [--api-version <value>]
 
 FLAGS
-  -n, --name=<value>  [default: World] The name of the person you'd like to say hello to.
+  -c, --count=<value>        [default: 100] The number of messages to watch for.
+  -n, --name=<value>         Description of a flag.
+  -o, --target-org=<value>   (required) Username or alias of the target org. Not required if the `target-org`
+                             configuration variable is already set.
+      --api-version=<value>  Override the api version used for api requests made by this command
+      --topic=<value>...     (required) The topic to subscribe to.
 
 GLOBAL FLAGS
-  --json  Format output as json.
+  --flags-dir=<value>  Import flag values from a directory.
+  --json               Format output as json.
 
 DESCRIPTION
-  Say hello either to the world or someone you know.
+  Summary of a command.
 
-  Say hello either to the world or someone you know.
+  More information about a command. Don't repeat the summary.
 
 EXAMPLES
-  Say hello to the world:
+  $ sf pubsub subscribe
 
-    $ sf hello world
+FLAG DESCRIPTIONS
+  -n, --name=<value>  Description of a flag.
 
-  Say hello to someone you know:
-
-    $ sf hello world --name Astro
+    More information about a flag. Don't repeat the summary.
 ```
 
 <!-- commandsstop -->
